@@ -22,7 +22,7 @@ class Example(QWidget):
         self.qp.end()
 
     def draw(self):
-        self.qp.setBrush(QColor(rd(0, 255), rd(0, 255), rd(0, 255)))
+        self.qp.setBrush(QColor(255, 255, 0))
         a = rd(10, self.width() - 10)
         self.qp.drawEllipse(a // 2, a // 2, a, a)
 
